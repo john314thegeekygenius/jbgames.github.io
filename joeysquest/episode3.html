@@ -19,48 +19,8 @@
 -->
 <!DOCTYPE html>
 <html style="height: 100%;" lang="en-US">
-<style>
-.bodydiv {
-  border: 5px outset rgb(64,64,64);
-  background-color: rgb(180,180,180);   
-  text-align: center;
-  width:512px;
-  margin-left: auto;
-  margin-right: auto;
-}
-body {
-  background-color: rgb(1,1,1);
-  padding-top: 64px;
-  padding-bottom: 64px;
-  min-width: 600px;
-}
-.jb-bar {
-  background-color: rgb(32,32,32);
-  width:100%;
-  height:64px;
-  overflow:hidden;
-  position: fixed;
-  margin: 0 auto;
-  color:#fff;
-  right:0px;
-}
-.jb-bar2 {
-  background-color: rgb(32,32,32);
-  overflow:hidden;
-  margin: 0 auto;
-  color:#fff;
-  padding: 0px 8px;
-}
-.container p{
-	line-height: 200px; /* Create scrollbar to test positioning */
-}
-.jb_text {
-	color: #fff;
-	text-decoration: none;
-	display: inline-block;
-}
-</style>
 <head>
+<link rel="stylesheet" href="../styles.css">
 <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
 <link rel="icon" href="../images/favicon.png" type="image/png">
 <title>JBGames Games</title>
@@ -83,8 +43,10 @@ body {
 			Come back soon to find out what happens in this episode.
 		</p>
 		<br>
-		<!--<a href="buy_episode_3.html" class="jb-bar2 jb_text"><h3>Buy</h3></a>-->
-		<h3 class="jb-bar2 jb_text" style="padding:8px 10px;">Buy (unavailable)</h3><br>
+		<div class="dropdown">
+			<a href="#"><button class="dropbtn"><h3>Buy (unavailable)</h3></button></a>
+		</div> 
+		<br>
 		<a href="https://play.google.com/" class="jb_text"><img src="../images/gplay.png" alt="Get it on Google Play!" style="height:50px;  padding: 2px;"></a>
 	</div>
 	<br>
